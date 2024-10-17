@@ -2,7 +2,7 @@ import Logo from '../assets/images/Logo.svg';
 
 const Nav = () => {
 
-    return <nav>
+    return <nav className="flex items-center justify-between p-4 bg-green-800 text-white">
         <img src={Logo} alt="Logo" />
         <ul>
         <li><a href='#'>Home</a></li>
