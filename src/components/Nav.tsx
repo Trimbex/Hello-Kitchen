@@ -1,12 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
-import Logo from '../assets/images/Logo.svg';
+import Logo from '../assets/images/LOGO.jpg';
 import Hamburger from '../assets/icons/🦆 icon _hamburger menu_.svg';
 
 const Nav = () => {
     const navItems = ['Home', 'About', 'Menu', 'Reservations', 'Order Online', 'Login'];
     const styles = {
-        listItem: "hover:bg-[#495E57] hover:text-white transition-colors duration-300 px-4 py-2 rounded",
-        mobileListItem: "w-full block hover:bg-[#495E57] hover:text-white transition-colors duration-300 text-center",
+        listItem: "hover:bg-[#4c8d48] hover:text-white transition-colors duration-300 px-4 py-2 rounded",
+        mobileListItem: "w-full block hover:bg-[#4c8d48] hover:text-white transition-colors duration-300 text-center",
         navButton: "p-2",
         dropdown: "bg-white shadow-lg mt-2 rounded-lg md:hidden w-full overflow-hidden transition-max-height duration-700 ease-in-out"
     };
@@ -36,7 +36,7 @@ const Nav = () => {
     return (
         <>
             <nav className="flex items-center justify-center p-2 text-black font-bold">
-                <img src={Logo} alt="Logo" className="px-8" />
+                <img src={Logo} alt="Logo" className="px-8 h-14" />
                 <div className="hidden md:flex">
                     <ul className="flex space-x-14">
                         {renderNavItems(navItems, styles.listItem)}
