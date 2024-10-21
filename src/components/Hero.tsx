@@ -18,13 +18,19 @@ const Hero = () => {
                 A renowned enterprise known for its exceptional dining experience and high reputation in the heart of Chicago.
                 </div>
 
+                <div>
+                <button className="mt-6 px-8 py-4 bg-[#ffffff] text-[#4c8d48] font-bold text-2xl rounded-full shadow-md hover:bg-[#4c8d48] hover:text-[#ffffff] transition-all duration-300">
+                Reserve a Table
+                </button>
+                </div>
+
               </div>
               <img src={Heroimg} className="absolute top-[10%] left-[60%] w-[30%] h-[120%] object-cover z-0 rounded-3xl" alt="Hero" />
         </div>
-        
+
         </>
 
-        
+
 
     );
 };
