@@ -1,5 +1,5 @@
 import Hero from './Hero'
-import Highlights from './Highlights'
+import Highlights from './Highlights/Highlights'
 import Testimonials from './Testimonials'
 import About from './About'
 
